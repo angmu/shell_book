@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>apps</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (_apps == nil) {
+        // 1.加载plist文件
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"apps.plist" ofType:nil];
+        NSArray *dictArray = [NSArray arrayWithContentsOfFile:path];
+        
+        // 2.将dictArra里面的字典转成模型
+        NSMutableArray *appArray = [NSMutableArray array];
+        for (NSDictionary *dict in dictArray) {
+            MGApp *app = [MGApp appWithDict:dict];
+            [appArray addObject:app];
+        }
+        // 3.赋值
+        _apps = appArray;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>52BB3679-9F34-4218-9785-F3825EB928B6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>apps</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

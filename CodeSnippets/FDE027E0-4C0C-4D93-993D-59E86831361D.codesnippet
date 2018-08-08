@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>file</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString *file = [[NSSearchPathForDirectoriesInDomains(&lt;#NSXxxDirectory#&gt;, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:&lt;#fileName#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FDE027E0-4C0C-4D93-993D-59E86831361D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>得到沙盒文件夹下文件的全路径</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>file</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
