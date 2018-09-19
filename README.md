@@ -1,5 +1,5 @@
 ## OC代码提交时格式化！
-- setupCode-spacecommander
+- setupCode/spacecommander
 
 ## 强迫症的 Mac 设置指南
 - [如何配置一个高效的 Mac 工作环境](./ocds-guide-to-setting-up-mac/README.md)
