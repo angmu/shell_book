@@ -1,11 +1,14 @@
 #!/bin/sh
 
-sysout(){
-echo "hello world"
+# 函数1：add求两个数的和
+add()
+{
+	a=$1
+	b=$2
+	z=`expr $a + $b`
+	echo "The sum is $z"
 }
-
-sysout
-
+add $1 $2
 
 
 #test(){

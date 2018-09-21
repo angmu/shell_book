@@ -5,11 +5,13 @@
 - [如何配置一个高效的 Mac 工作环境](./ocds-guide-to-setting-up-mac/README.md)
 
 ## shell语言学习
-- ShellPlayCode
+- shell变量
+- if/elif
+- for/while
 
 ## iTerm2
 
-## git 
+## git 配置
 
 
 ## Xcode代码块(CodeSnippets)

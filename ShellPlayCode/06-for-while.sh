@@ -8,16 +8,32 @@
 #done
 
 
-# while循环
-i=1
-sum=0
-while [ "$i" -le 100 ]
-do
-    sum=$[$sum + $i]
-    i=$[$i + 1]
-done
-echo $sum
+# 删除垃圾箱
+#for i in $HOME/.Trash/*
+#do
+#    rm $i
+#    echo "$i has been deleted!"
+#done
 
+
+# while循环
+#i=1
+#sum=0
+#while [ "$i" -le 100 ]
+#do
+#    sum=$[$sum + $i]
+#    i=$[$i + 1]
+#done
+#echo $sum
+
+# 输出奇数
+#for((j=0;j<10;j++))
+#do
+#    if(($j%2==1))
+#    then
+#        echo "$j"
+#    fi
+#done
 
 #for i in {1..5}
 #do
