@@ -9,11 +9,11 @@
 
 
 # 删除垃圾箱
-#for i in $HOME/.Trash/*
-#do
-#    rm $i
-#    echo "$i has been deleted!"
-#done
+for i in $HOME/.Trash/*
+do
+    rm -rf $i
+    echo "$i has been deleted!"
+done
 
 
 # while循环
