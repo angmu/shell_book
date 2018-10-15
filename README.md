@@ -1,5 +1,14 @@
+## 代码模板
+- Baoneng Class.xctemplate
+![](http://ww1.sinaimg.cn/large/7c203f31gy1fw95v6ydzjj21ku01sdgj.jpg)
+
+
+
 ## OC代码提交时格式化！
 - setupCode/spacecommander
+- run `path/to/spacecommander/setup-repo.sh`
+
+
 
 ## 强迫症的 Mac 设置指南
 - [如何配置一个高效的 Mac 工作环境](./ocds-guide-to-setting-up-mac/README.md)
@@ -12,7 +21,6 @@
 ## iTerm2
 
 ## git 配置
-
 
 ## Xcode代码块(CodeSnippets)
 - mark 
